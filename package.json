@@ -1,0 +1,11 @@
+{
+  "name": "redux-kernel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/solo474/redux-kernel.git",
+  "author": "Sagar",
+  "license": "MIT",
+  "dependencies": {
+    "redux-observable": "^1.0.0"
+  }
+}
