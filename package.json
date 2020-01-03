@@ -5,7 +5,13 @@
   "repository": "https://github.com/solo474/redux-kernel.git",
   "author": "Sagar",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "jest": "24.9.0",
+    "redux": "4.0.5",
     "redux-observable": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }
