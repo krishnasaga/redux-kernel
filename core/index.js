@@ -8,9 +8,11 @@ export const createSpace = () => {
   const store = createStore(reducer);
   return {
     putSlice: ({ sliceName }) => {
-      currentReducers[sliceName] = (state = {}) => {
-        return state;
-      };
+      if (typeof currentReducers[sliceName] !== "function") {
+        currentReducers[sliceName] = (state = {}) => {
+          return state;
+        };
+      }
       store.replaceReducer(combineReducers(currentReducers));
     },
     store
