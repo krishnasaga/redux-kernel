@@ -8,3 +8,6 @@
 - We provide high level APIs for developers to manage state by controlling intelictual complexity
 
 > The primery puprops of this project is to explore complex intelectual ideas and create simple abstractoins.
+
+> image credit
+> https://cumulusnetworks.com/blog/linux-architecture/ > <img src="https://cumulusnetworks.com/blog/wp-content/uploads/Screen-Shot-2018-01-04-at-10.43.56-AM.png" >
